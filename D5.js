@@ -138,6 +138,15 @@ for (let i = 0; i < cars.length; i++) {
 */
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
 
+let i = 0;
+while (i < numericArray.length) {
+  console.log(numericArray[i]);
+  if (numericArray[i] === 32) {
+    break;
+  }
+  i++;
+}
+
 /*RISPOSTA*/
 
 // ciclare fino a che risultato è 32

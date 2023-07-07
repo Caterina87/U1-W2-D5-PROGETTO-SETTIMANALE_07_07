@@ -1,0 +1,40 @@
+.leftLogoCont {
+  background-color: #222f3f;
+  align-items: start;
+  padding-block: 10px;
+  padding-left: 60px;
+}
+.imgLogo {
+  width: 120px;
+  height: 40px;
+}
+.menuCont {
+  background-color: #364757;
+  padding-left: 60px;
+}
+ul {
+  padding-block: 5px;
+  padding-left: 0;
+  margin-left: 0;
+}
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #d2d6df;
+  display: inline;
+  list-style-type: none;
+  padding-right: 30px;
+}
+.mainCont {
+  width: 90%;
+  margin-block: 20px;
+  align-items: center;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.orangeCont {
+  background-color: #f56600;
+  text-align: center;
+  padding-block: 3px;
+  color: #d2d6df;
+}
