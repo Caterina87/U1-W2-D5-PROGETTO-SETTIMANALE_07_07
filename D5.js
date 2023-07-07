@@ -123,7 +123,6 @@ console.log(justTrims);
 */
 
 /*RISPOSTA*/
-// ciclo su cars e if con proprietà cars[i].color (verificare metodo per trovare prima lettera)
 
 for (let i = 0; i < cars.length; i++) {
   if (cars[i].color.charAt(0) === "b") {
@@ -132,11 +131,14 @@ for (let i = 0; i < cars.length; i++) {
     console.log("Buzz");
   }
 }
+
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento
      del numero 32.
 */
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
+
+/*RISPOSTA*/
 
 // ciclare fino a che risultato è 32
 
@@ -147,3 +149,41 @@ const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+/*RISPOSTA*/
+
+const lowerAlph = [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z",
+];
+
+let characterPosition = [];
+
+for (let i = 0; i < charactersArray.length; i++) {
+  characterPosition.push(lowerAlph.indexOf(charactersArray[i]));
+}
+console.log(characterPosition);
