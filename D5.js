@@ -84,8 +84,6 @@ console.log(cars);
 */
 
 /*RISPOSTA*/
-// creazione oggetto di cars e push dentro array
-// ciclo su cars e rimuovi proprietà con delete
 
 let addCar = {
   brand: "Fiat",
@@ -138,6 +136,8 @@ for (let i = 0; i < cars.length; i++) {
 */
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
 
+/*RISPOSTA*/
+
 let i = 0;
 while (i < numericArray.length) {
   console.log(numericArray[i]);
@@ -146,10 +146,6 @@ while (i < numericArray.length) {
   }
   i++;
 }
-
-/*RISPOSTA*/
-
-// ciclare fino a che risultato è 32
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni 
